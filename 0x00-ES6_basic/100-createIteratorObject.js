@@ -1,5 +1,4 @@
+/* eslint-disable */
 export default function createIteratorObject(report) {
-  while (report) {
-    console.log('Placeholder');
-  }
+    return Object.keys(employeesList);
 }
