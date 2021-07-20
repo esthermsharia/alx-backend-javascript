@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default class HolbertonCourse {
   constructor(name, length, students) {
     if (Object.getPrototypeOf(name) !== String.prototype) throw TypeError('name must be a string');
